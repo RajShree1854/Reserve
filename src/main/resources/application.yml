@@ -4,8 +4,8 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/reservationdb
-    username: azki
-    password: azki!p@ss
+    username: songoku
+    password: songoku
   data:
     redis:
       host: localhost

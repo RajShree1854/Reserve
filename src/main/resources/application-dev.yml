@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/reservationdb
-    username: azki
-    password: azki!p@ss
+    username: songoku
+    password: songoku
   jpa:
     hibernate:
       ddl-auto: update
@@ -20,5 +20,5 @@ spring:
 logging:
   level:
     root: info
-    com.azki.reservation: info
+    reservation: info
     org.hibernate.SQL: info

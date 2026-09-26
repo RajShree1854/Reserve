@@ -8,18 +8,18 @@
         <version>3.5.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.azki</groupId>
+    <groupId>com.songoku</groupId>
     <artifactId>reservation</artifactId>
     <version>1.0.0</version>
     <name>reservation</name>
     <description>reservation appointments</description>
-    <url>https://azki.com</url>
+    <url>https://songoku.com</url>
     <developers>
         <developer>
-            <name>Hooman Yarahmadi</name>
-            <email>knight.hooman@gmail.com</email>
-            <organization>Azki</organization>
-            <organizationUrl>https://azki.com</organizationUrl>
+            <name>Son Goku</name>
+            <email>songoku@example.com</email>
+            <organization>SonGoku</organization>
+            <organizationUrl>https://songoku.com</organizationUrl>
         </developer>
     </developers>
     <scm>

@@ -9,8 +9,8 @@ services:
     environment:
       - SPRING_PROFILES_ACTIVE=dev
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/reservationdb
-      - SPRING_DATASOURCE_USERNAME=azki
-      - SPRING_DATASOURCE_PASSWORD=azki!p@ss
+      - SPRING_DATASOURCE_USERNAME=songoku
+      - SPRING_DATASOURCE_PASSWORD=songoku
       - SPRING_REDIS_HOST=redis
       - SPRING_REDIS_PORT=6379
       - SPRING_LIQUIBASE_ENABLED=true
@@ -37,8 +37,8 @@ services:
       - "5432:5432"
     environment:
       - POSTGRES_DB=reservationdb
-      - POSTGRES_USER=azki
-      - POSTGRES_PASSWORD=azki!p@ss
+      - POSTGRES_USER=songoku
+      - POSTGRES_PASSWORD=songoku
     volumes:
       - postgres-data:/var/lib/postgresql/data
       # Optional: Add initialization scripts if needed
