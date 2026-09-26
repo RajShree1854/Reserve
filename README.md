@@ -154,8 +154,8 @@ Adjust these values for the deployment environment and expected workload.
 Clone the repository:
 
 ```bash
-git clone https://github.com/HoomanDevp/reservation.git
-cd reservation
+git clone https://github.com/RajShree1854/Reserve.git
+cd Reserve
 ```
 
 Start PostgreSQL and Redis using the repository's container configuration where applicable:
@@ -243,5 +243,5 @@ Free To Use License (FTUL). See `LICENSE` for details.
 
 ## Author
 
-**Hooman Yarahmadi**  
-GitHub: [@HoomanDevp](https://github.com/HoomanDevp)
+**Raj**  
+GitHub: [@RajShree1854](https://github.com/RajShree1854)
