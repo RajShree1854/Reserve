@@ -1,4 +1,4 @@
-# Reservation — High-Concurrency Appointment Scheduling Backend
+# Slotify — High-Concurrency Appointment Scheduling Backend
 
 A production-oriented appointment reservation backend built with **Java 21** and **Spring Boot 3.5**. The project focuses on reliable reservation processing under contention, using PostgreSQL for durable state and Redis for queueing, caching, status tracking, and rate-limiting support.
 
