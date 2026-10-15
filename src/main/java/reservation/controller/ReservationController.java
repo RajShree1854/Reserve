@@ -15,7 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@Tag(name = "Reservation API", description = "مدیریت رزرو زمان")
+@Tag(name = "Reservation API", description = "Appointment Scheduling Management")
 @RestController
 @RequestMapping("/api/v1/reservations")
 public class ReservationController {
@@ -35,7 +35,7 @@ public class ReservationController {
         this.loadMonitoringService = loadMonitoringService;
     }
 
-    @Operation(summary = "رزرو نزدیک‌ترین زمان آزاد")
+    @Operation(summary = "Book the earliest available slot")
     @PostMapping("/reserve")
     public ResponseEntity<ReservationResponseDto> reserveNearest(@RequestBody @Valid ReservationRequestDto request) {
         try {
@@ -62,7 +62,7 @@ public class ReservationController {
         }
     }
 
-    @Operation(summary = "بررسی وضعیت درخواست رزرو با requestId")
+    @Operation(summary = "Checking the status of a reservation request using requestId")
     @GetMapping("/status/{requestId}")
     public ResponseEntity<ReservationResponseDto> getReservationStatus(@PathVariable String requestId) {
         String status = reservationQueueService.getRequestStatus(requestId);
@@ -72,7 +72,7 @@ public class ReservationController {
         return ResponseEntity.ok(new ReservationResponseDto(requestId, status));
     }
 
-    @Operation(summary = "لغو رزرو با ID")
+    @Operation(summary = "Make a reservation with ID")
     @DeleteMapping("/cancel/{id}")
     public ResponseEntity<Void> cancelReservation(@PathVariable Long id) {
         reservationService.cancelReservation(id);
