@@ -243,5 +243,6 @@ Free To Use License (FTUL). See `LICENSE` for details.
 
 ## Author
 
-**Raj**  
-GitHub: [@RajShree1854](https://github.com/RajShree1854)
+**Raj, Krish Saini**  
+GitHub: [@RajShree1854](https://github.com/RajShree1854), [@krishsaini777](https://github.com/krishsaini777)
+
